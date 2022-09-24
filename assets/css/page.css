@@ -1,0 +1,150 @@
+@import "./styles.css";
+
+.page-header {
+  height: 60vh;
+  background-image: url(../../assets/images/detail-bg.png);
+  background-repeat: no-repeat;
+  background-position: 90% 115px;
+}
+
+.header-page {
+  margin-top: 5%;
+  margin-left: 50px;
+}
+
+.header-sub {
+  font-size: 34px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.header-text {
+  color: #fff;
+  max-width: 400px;
+  line-height: 25px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.header-breadcrumb {
+  max-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 6px 20px;
+  background-color: #222;
+  color: #fff;
+  opacity: 0.5;
+  border-radius: 30px;
+}
+
+.breadcrumb-item {
+  margin-right: 20px;
+}
+
+.aboutus-left img {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+}
+
+.dta-right {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dta-box {
+  width: 250px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px;
+}
+
+.dta-icon i {
+  border-radius: 50%;
+  color: var(--primary);
+  font-size: 30px;
+}
+
+.dta-main {
+  font-size: 30px;
+  font-weight: 700;
+  color: #787878;
+}
+
+.dta-sub {
+  color: #787878;
+  font-size: 16px;
+}
+
+.video-preview {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url(../../assets/images/3J7A2842.avif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  position: relative;
+}
+
+.video-btn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.video-btn i {
+  font-size: 100px;
+  color: rgb(0, 148, 253);
+}
+
+.service-card {
+  max-width: 350px;
+}
+
+.cs-card {
+  margin: 20px;
+}
+
+/* Team */
+.team-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.team-card {
+  width: 350px;
+  text-align: center;
+  padding: 20px 40px;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  border: 2px solid rgba(0, 0, 0, 0.075);
+  transition: all ease-in 0.4s;
+}
+
+.team-card:hover {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  border: 2px solid var(--primary);
+  transition: all ease-in 0.4s;
+}
+
+.team-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.team-icon {
+  font-size: 24px;
+  margin-right: 20px;
+  color: #3b7ef1;
+}
+
+.team-icon:hover {
+  color: #14183f;
+}
